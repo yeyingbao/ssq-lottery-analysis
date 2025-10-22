@@ -39,14 +39,19 @@ A companion WeChat public account article (in Chinese) summarizes the findings i
 ## Installation
 
 1. Clone the repository:
-  git clone https://github.com/yeyingbao/ssq-lottery-analysis.git
-  cd ssq-lottery-analysis
+
+git clone https://github.com/yeyingbao/ssq-lottery-analysis.git
+
+cd ssq-lottery-analysis
+
 2. Install dependencies (Python 3.10+ required):
-  pip install -r requirements.txt
+
+pip install -r requirements.txt
 
 ## Usage
 Run the script with the provided CSV data:
- python ssq_analysis.py
+
+python ssq_analysis.py
 
 - The script loads `ssq_data_clean_adj.csv` by default.
 - It performs all analyses sequentially, printing results to the console.
