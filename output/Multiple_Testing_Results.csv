@@ -1,0 +1,18 @@
+﻿Test,Original p-value,FDR corrected p-value,Holm corrected p-value,Significant (α=0.05),Significant (Bonferroni),Significant (FDR),Significant (Holm)
+Analysis 1: Chi-square test (First prize rate),0.7021779768207861,0.8151053996174861,1.0,No,No,No,No
+Analysis 2: Chi-square test (Red ball frequency),0.13722067038608515,0.333250199509064,1.0,No,No,No,No
+Analysis 2: Chi-square test (Blue ball frequency),0.7490328888484384,0.8151053996174861,1.0,No,No,No,No
+Analysis 3: t-test (Prize pool effect),0.43908156594706993,0.6220322184250157,1.0,No,No,No,No
+Analysis 3: Mann-Whitney U test (Prize pool effect),0.02510320142298839,0.07112573736513376,0.3012384170758607,Yes,No,No,No
+Analysis 3: KS test (Prize pool effect),0.02024681270510669,0.06883916319736275,0.26320856516638697,Yes,No,No,No
+Analysis 4: t-test (Sales effect),0.7671580231693986,0.8151053996174861,1.0,No,No,No,No
+Analysis 4: Mann-Whitney U test (Sales effect),0.26673354380830194,0.5038300271934593,1.0,No,No,No,No
+Analysis 4.2: Pearson correlation (Prize-Sales),5.144793730375354e-32,8.746149341638103e-31,8.746149341638101e-31,Yes,Yes,Yes,Yes
+Analysis 4.2: Spearman correlation (Prize-Sales),6.243382556567896e-25,5.306875173082712e-24,9.989412090508634e-24,Yes,Yes,Yes,Yes
+Analysis 4.2: ANOVA (Prize across sales quartiles),5.728999980159365e-18,3.246433322090306e-17,8.593499970239047e-17,Yes,Yes,Yes,Yes
+Analysis 5: Runs test (Sequence randomness),0.32240239793630643,0.5480840764917209,1.0,No,No,No,No
+Analysis 6.1: ANOVA (Prize pool by winner count),6.370604398288818e-09,2.7075068692727477e-08,8.918846157604345e-08,Yes,Yes,Yes,Yes
+Analysis 6.2: t-test (Top 10% vs Bottom 90%),0.398234334008413,0.6154530616493655,1.0,No,No,No,No
+Analysis 6.2: Mann-Whitney (Top 10% vs Bottom 90%),0.2642788408779192,0.5038300271934593,1.0,No,No,No,No
+Analysis 6.2: t-test (Top 20% vs Bottom 80%),0.7164456376357715,0.8151053996174861,1.0,No,No,No,No
+Analysis 6.2: Mann-Whitney (Top 20% vs Bottom 80%),0.9904748796515889,0.9904748796515889,1.0,No,No,No,No
