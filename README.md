@@ -23,6 +23,7 @@ A companion WeChat public account article (in Chinese) summarizes the findings i
 
 - Data: `ssq_data_clean_adj.csv` (cleaned SSQ lottery results from 2008-2023).
 - Source: Scraped from the official China Welfare Lottery website[](https://www.cwl.gov.cn/). Note: Early data (pre-2008) was excluded due to missing values and inflation adjustments.
+- Additionally, since the official website indicates that the jackpot amount for each Double Color Ball draw actually represents the remaining balance from that draw, in the `ssq_data_clean_adj.csv` file, all remaining jackpot amounts from the current draw are shifted to the next draw for analysis.Of course, I also provided the original unadjusted file, `ssq_data_clean.csv`.
 
 ## Features
 
